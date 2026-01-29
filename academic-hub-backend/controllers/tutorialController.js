@@ -1,6 +1,7 @@
 // controllers/tutorialController.js
 const axios = require('axios');
 const Tutorial = require('../models/Tutorial');
+const logger = require('../utils/logger');
 
 // Helper function to extract video ID from YouTube URL
 const extractVideoId = (url) => {

@@ -1,5 +1,6 @@
 // controllers/ideaController.js
 const Idea = require('../models/Idea');
+const logger = require('../utils/logger');
 
 // @desc    Get all ideas for a user
 // @route   GET /api/ideas

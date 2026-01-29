@@ -1,5 +1,6 @@
 // controllers/goalController.js
 const Goal = require('../models/Goal');
+const logger = require('../utils/logger');
 
 // @desc    Get all goals for a user
 // @route   GET /api/goals

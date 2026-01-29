@@ -1,5 +1,5 @@
 // middleware/error.js
-const logger = require('../config/logger');
+const logger = require('../utils/logger');
 
 const errorHandler = (err, req, res, next) => {
   let error = { ...err };

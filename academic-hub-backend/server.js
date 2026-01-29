@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const errorHandler = require('./middleware/error');
-const logger = require('./config/logger');
+const logger = require('./utils/logger');
 require('dotenv').config();
 
 const app = express();

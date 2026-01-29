@@ -1,5 +1,6 @@
 // controllers/subjectController.js
 const Subject = require('../models/Subject');
+const logger = require('../utils/logger');
 
 // @desc    Get all subjects for a user
 // @route   GET /api/subjects
